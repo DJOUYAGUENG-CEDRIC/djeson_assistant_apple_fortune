@@ -1,0 +1,68 @@
+'use client';
+
+import { useState } from 'react';
+
+function SendIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+      <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+    </svg>
+  );
+}
+
+export default function ChatInput({ onSend, disabled }) {
+  const [value, setValue] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const trimmed = value.trim();
+    if (!trimmed) return;
+    onSend(trimmed);
+    setValue('');
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      handleSubmit(e);
+    }
+  };
+
+  const canSend = value.trim() && !disabled;
+
+  return (
+    <form onSubmit={handleSubmit} className="flex items-center gap-2 px-3 py-3">
+      <input
+        type="text"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        onKeyDown={handleKeyDown}
+        placeholder="Écrivez votre message..."
+        disabled={disabled}
+        className="flex-1 rounded-full px-4 py-2.5 text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none"
+        style={{
+          background: '#1c0e05',
+          color: '#fef3c7',
+          border: '1px solid #7c2d12',
+        }}
+        onFocus={(e) => {
+          e.target.style.borderColor = '#f59e0b';
+          e.target.style.boxShadow = '0 0 0 2px rgba(245,158,11,0.25)';
+        }}
+        onBlur={(e) => {
+          e.target.style.borderColor = '#7c2d12';
+          e.target.style.boxShadow = 'none';
+        }}
+        autoComplete="off"
+      />
+      <button
+        type="submit"
+        disabled={!canSend}
+        className="shrink-0 w-10 h-10 text-white rounded-full flex items-center justify-center transition-colors shadow"
+        style={{ background: canSend ? '#dc2626' : '#3d1f08', cursor: canSend ? 'pointer' : 'not-allowed' }}
+        aria-label="Envoyer"
+      >
+        <SendIcon />
+      </button>
+    </form>
+  );
+}
