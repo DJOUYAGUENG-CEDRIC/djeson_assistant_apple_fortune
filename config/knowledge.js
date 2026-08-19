@@ -6,7 +6,7 @@ export const KNOWLEDGE_BASE = `
 === DJESON PRO — APPLE OF FORTUNE ===
 
 Djeson Pro propose à ses abonnés un accompagnement autour du jeu Apple of Fortune
-disponible sur 1xBet.
+disponible sur 1xBet et Melbet.
 
 L'objectif principal du chatbot est d'aider les abonnés à comprendre le fonctionnement
 du service et surtout de les guider vers l'inscription afin qu'ils puissent, sous
@@ -27,16 +27,16 @@ DJ38X
 CONDITION 2 :
 L'abonné doit effectuer un PREMIER DÉPÔT / une première recharge d'au moins :
 
-1 500 FCFA (soit environ 3$)
+3 $ ou 1500 FCFA
 
 Les deux conditions sont CUMULATIVES.
 
 Cela signifie :
 
-- Inscription avec DJ38X + dépôt minimum de 1 500 FCFA (soit environ 3$) = conditions remplies.
+- Inscription avec DJ38X + dépôt minimum de 3 $ ou 1500 FCFA = conditions remplies.
 - Inscription sans utiliser DJ38X = conditions non remplies.
-- Dépôt de 1 500 FCFA (soit environ 3$) sans inscription avec DJ38X = conditions non remplies.
-- Dépôt inférieur à 1 500 FCFA (soit environ 3$) = conditions non remplies.
+- Dépôt de 3 $ ou 1500 FCFA sans inscription avec DJ38X = conditions non remplies.
+- Dépôt inférieur à 3 $ ou 1500 FCFA = conditions non remplies.
 
 Si les deux conditions ne sont pas respectées, l'abonné ne peut pas bénéficier
 de l'accès aux failles.
@@ -91,7 +91,7 @@ le chatbot doit expliquer que le code doit être utilisé lors de l'inscription.
 ==================================================
 
 -- 1XBET --
-1xBet est le seul bookmaker partenaire pour le service Apple of Fortune.
+1xBet est un bookmaker partenaire pour le service Apple of Fortune.
 
 Lien d'inscription :
 https://refpa14435.com/L?tag=d_5047144m_1573c_&site=5047144&ad=1573
@@ -100,13 +100,23 @@ Emplacement du code :
 Le champ "Code promotionnel" se trouve dans le formulaire d'inscription,
 généralement vers le bas du formulaire avant la validation.
 
+-- MELBET --
+Melbet est un bookmaker partenaire pour le service Apple of Fortune.
+
+Lien d'inscription :
+https://refpa3665.com/L?tag=d_5560405m_2170c_com&site=5560405&ad=2170
+
+Emplacement du code :
+Dans le formulaire d'inscription, rechercher l'option "J'ai un code promo"
+ou le champ "Code promotionnel" et saisir DJ38X.
+
 
 ==================================================
 === PROCÉDURE D'INSCRIPTION ===
 ==================================================
 
 Étape 1 :
-Se rendre sur 1xBet, le seul bookmaker partenaire.
+Choisir un bookmaker partenaire (1xBet ou Melbet).
 
 Étape 2 :
 Ouvrir le lien officiel d'inscription.
@@ -133,7 +143,7 @@ Une fois les deux conditions remplies, demander l'accès aux contenus réservés
 === APPLE OF FORTUNE ===
 ==================================================
 
-Apple of Fortune est disponible sur 1xBet.
+Apple of Fortune est disponible sur 1xBet et Melbet.
 
 Le chatbot peut expliquer le fonctionnement général du jeu lorsque les informations
 nécessaires sont disponibles dans cette base.

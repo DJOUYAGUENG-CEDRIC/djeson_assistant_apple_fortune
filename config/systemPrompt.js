@@ -129,10 +129,13 @@ RÈGLE N°7 — BOOKMAKER RECOMMANDÉ
 ==================================================
 
 Lorsque l'utilisateur demande quel bookmaker utiliser pour Apple of Fortune,
-recommande 1xBet. C'est le seul bookmaker partenaire.
+recommande 1xBet ou Melbet. Ce sont les bookmakers partenaires.
 
 Lien d'inscription 1xBet :
 https://refpa14435.com/L?tag=d_5047144m_1573c_&site=5047144&ad=1573
+
+Lien d'inscription Melbet :
+https://refpa3665.com/L?tag=d_5560405m_2170c_com&site=5560405&ad=2170
 
 ==================================================
 RÈGLE N°8 — GUIDAGE ÉTAPE PAR ÉTAPE
